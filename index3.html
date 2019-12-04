@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food and Beer</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Pridi:200,400,500,600,700" rel="stylesheet">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+
+<body>
+ 
+ <header>
+ 
+ <div class="container">
+ 	
+ 		<div class="n-cont">
+		<div class="logo-cont">
+				  <a><img class="logo" src="img/logo.png"></a>
+				  
+				</div>
+			<nav class="nav">
+				<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#menu">Menu</a></li>
+							<li><a href="#events">Events</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+
+			</nav>
+		</div>	
+ 	
+ </div>
+ 	
+ 	 <div id="nav" class="overlay">
+		 <a hef="#" class="closeBtn" onClick="closeNav()"><i class="fas fa-times"></i></a>
+		 <div class="overlay__content">
+			<a href="#home" onClick="closeNav()" >Home</a>
+			<a href="#about" onClick="closeNav()" >About Us</a>
+			<a href="#menu" onClick="closeNav()" >Menu</a>
+			<a href="#events" onClick="closeNav()" >Events</a>
+			<a href="#" onClick="closeNav()" >Contact</a>
+		 </div>
+    </div>
+ 
+ 	<a href="#" class="openBtn" onclick="openNav()"><i class="fas fa-bars"></i></a>
+ 	
+ 	
+ </header>
+ 
+ <section class="hero-top" id="home">
+ 	
+		<div class="hero-text">
+			<img class="logo" src="img/logo.png">
+ 			<h2>HERE AT STEW'S BAR WE PRIDE OURSELVES ON THREE THINGS</h2>
+			<h4>LEARN MORE</h4>
+		</div>
+	<div class="overl"></div>
+ </section>
+ 
+ <section class="about-sect">
+ 	
+ 	<div class="img-back">
+ 		
+ 		<img src="img/acoustic-1851248_1920.jpg">
+ 	</div>
+ 	
+ 	<div class="about-text">
+ 		 	<h2>LIVE MUSIC CRAFT BEER & BURGERS</h2>
+ 		
+ 	</div>
+ 	
+ 	<div class="img-back">
+ 		<img src="img/beef-1845296_1920.jpg" >
+ 	</div>
+ 	
+ </section>
+
+<section class="what-sect" id="about">
+ 	
+
+ 	<div class="ab-text">
+ 		 	<div id="sect-5-cont">
+				<h2 class="about-us-head">ABOUT US</h2>	
+				<h3 class="about-us-subhead">NOT TO BRAG, BUT WE ARE THE NUMBER ONE SPOT FOR LOUISIANA BLUE IN EUROPE.</h3>
+				<p class="about-us-text">Louisiana blues is a genre of blues music that developed in the period after World War II in the state of Louisiana. It is generally divided into two major subgenres, with the jazz-influenced New Orleans blues based on the musical traditions of that city and the slower tempo swamp blues incorporating influences from zydeco and Cajun music from around Baton Rouge.</p>
+		</div>
+ 		
+ 	</div>
+ 	 	
+ 	
+ </section>
+ 
+ <section class="menu-sect" id="menu">
+ 
+ <div class="men-head">
+ 	
+ 	<h2>Menu</h2>
+ </div>
+ 
+<div class="tabContainer">
+    <div class="buttonContainer">
+        <button onclick="showPanel(0,'rgba(158, 156, 115, 0.53)')">Burgers</button>
+        <button onclick="showPanel(1,'rgba(158, 156, 115, 0.53)')">Beers</button>
+        <button onclick="showPanel(2,'rgba(158, 156, 115, 0.53)')">Cocktails</button>
+        <button onclick="showPanel(3,'rgba(158, 156, 115, 0.53)')">Wine</button>
+    </div>
+    <div class="tabPanel">
+		<div class="burgers menu-item show">
+				<h1 class="menu-item-title">THE BEAST</h1>
+				<h1 class="menu-item-portion">8oz</h1>
+				<h1 class="menu-item-price">£7.00</h1>
+				<div class="menu-item-description-cont">
+					<p class="menu-item-description">The ultimate burger, a rich brown on the outside, a soft pink on the inside and a ball of top-quality, butter-soft meat, rather than a thin, firm patty. Oozing with cheese and topped with crisp streaky bacon, sandwiched between.</p>
+				</div>
+		</div>
+		<div class="burgers menu-item show">
+					<h1 class="menu-item-title">BILLY BIG</h1>
+					<h1 class="menu-item-portion">8oz</h1>
+					<h1 class="menu-item-price">£7.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">A ball of top-quality, butter-soft meat ,this is place holder text for the  purpose of burger description lorem ipsum butter-soft meat, rather than a thin, firm patty. Oozing with cheese and topped with crisp streaky bacon, sandwiched</p>
+					</div>
+				</div>
+				
+				<div class="burgers menu-item show">
+					<h1 class="menu-item-title">BLOODY MESS</h1>
+					<h1 class="menu-item-portion">6oz</h1>
+					<h1 class="menu-item-price">£6.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">This burger comes in two ways rare and bloody, sizzling brown onions, slight bit of elk meat sandwiched between a lightly-toasted seeded brioche bun, with a generous slap of mayonnaise and some iceberg lettuce leaves for the tickle. Lorem ipsum.</p>
+					</div>
+				</div>
+				
+				
+				<div class="burgers menu-item show">
+					<h1 class="menu-item-title">STRAIGHT SHOT</h1>
+					<h1 class="menu-item-portion">6oz</h1>
+					<h1 class="menu-item-price">£5.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">Back to basics, and doing it well quailty beed toasted bun american chedder sause and a lettuce.</p>
+					</div>
+				</div>
+				
+	</div>
+    <div class="tabPanel">
+	
+	<div class="beers menu-item show">
+					<h1 class="menu-item-title">THE IMPERIAL</h1>
+					<h1 class="menu-item-portion">300ml</h1>
+					<h1 class="menu-item-price">£4.50</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The American-style imperial stout is the strongest in alcohol and body of the stouts. Black in color, these beers typically have an extremely rich malty flavor and aroma with full, sweet malt character. Bitterness can come from roasted malts or hop additions.</p>
+					</div>
+				</div>
+				
+				<div class="beers menu-item show">
+					<h1 class="menu-item-title">EASY ALE</h1>
+					<h1 class="menu-item-portion">330ML</h1>
+					<h1 class="menu-item-price">£5.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">One of the most approachable styles, a golden or blonde ale is an easy-drinking beer that is visually appealing and has no particularly dominating malt or hop characteristics. Rounded and smooth, it is an American classic known for its simplicity. Sometimes referred to as “golden ale.” These beers can have honey, spices and fruit added, and may be fermented with lager or ale yeast.</p>
+					</div>
+				</div>
+				
+				<div class="beers menu-item show">
+					<h1 class="menu-item-title">AMERICAN</h1>
+					<h1 class="menu-item-portion">500ML</h1>
+					<h1 class="menu-item-price">£6.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The American amber ale has medium-high to high maltiness with medium to low caramel character. They are characterized by American-variety hops, which produce medium hop bitterness, flavor and aroma. American ambers are usually darker in color, have more caramel flavor and less hop aromatics, and may have more body.</p>
+					</div>
+				</div>
+
+   
+   </div>
+    <div class="tabPanel">
+    <div class="cocktails menu-item show">
+					<h1 class="menu-item-title">OLD FASHIONED</h1>
+					<h1 class="menu-item-portion">250ml</h1>
+					<h1 class="menu-item-price">£7.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">Nothing fancy, Just  a cocktail made by muddling sugar with bitters, then adding alcohol, originally whiskey or, if you fancy, brandy. Finally a twist of citrus rind.</p>
+					</div>
+				</div>
+				
+			<div class="cocktails menu-item show">
+					<h1 class="menu-item-title">WHISKEY SOUR</h1>
+					<h1 class="menu-item-portion">250ml</h1>
+					<h1 class="menu-item-price">£7.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The whiskey sour is a mixed drink containing whiskey, lemon juice, sugar, and optionally, a dash of egg white. With the egg white, it is sometimes called a Boston Sour.</p>
+					</div>
+				</div>
+				
+				<div class="cocktails menu-item show">
+					<h1 class="menu-item-title">MARTINI</h1>
+					<h1 class="menu-item-portion">250ml</h1>
+					<h1 class="menu-item-price">£7.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The martini is a cocktail made with gin and vermouth, and garnished with an olive or a lemon twist. Over the years, the martini has become one of the best-known mixed alcoholic beverages.</p>
+					</div>
+				</div>
+		</div>
+    <div class="tabPanel">
+	
+	  <div class="vino menu-item show">
+					<h1 class="menu-item-title">BARE ROSE</h1>
+					<h1 class="menu-item-portion">300ml</h1>
+					<h1 class="menu-item-price">£4.50</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The American-style imperial stout is the strongest in alcohol and body of the stouts. Black in color, these beers typically have an extremely rich malty flavor and aroma with full, sweet malt character. Bitterness can come from roasted malts or hop additions.</p>
+					</div>
+				</div>
+				
+	
+
+	<div class="vino menu-item show">
+					<h1 class="menu-item-title">SAUVIGOUNG</h1>
+					<h1 class="menu-item-portion">500ML</h1>
+					<h1 class="menu-item-price">£6.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The American amber ale has medium-high to high maltiness with medium to low caramel character. They are characterized by American-variety hops, which produce medium hop bitterness, flavor and aroma. </p>
+					</div>
+				</div>
+				
+	<div class="vino menu-item show">
+					<h1 class="menu-item-title">CHARDONAY</h1>
+					<h1 class="menu-item-portion">330ML</h1>
+					<h1 class="menu-item-price">£5.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">This style may contain adjuncts such as corn, rice and sugar, which help dry out the finish and lessen the body. With notes of caramel, toffee and sometimes low-level diacetyl (butter), think of this beer style as a cousin to lightly-toasted and buttered bread.</p>
+					</div>
+				</div>
+				
+	<div class="vino menu-item show">
+					<h1 class="menu-item-title">ROSE</h1>
+					<h1 class="menu-item-portion">760ML</h1>
+					<h1 class="menu-item-price">£8.00</h1>
+					<div class="menu-item-description-cont">
+						<p class="menu-item-description">The German-style Kolsch is light in color and malt character. This style’s fermentation process yields a light vinous character which is accompanied by a slightly dry, crisp finish.</p>
+					</div>
+				</div>
+				
+</div>
+	 </div>
+<div class="overl"></div>
+</section>
+ 
+ 
+ 
+ 
+ <section class="event-sect" id="events">
+ 	
+ 	<div class="what-text">
+ 		 	<div id="sect-5-cont">
+				<h2 class="about-us-head">Events</h2>	
+				<h3 class="about-us-subhead">FANCY A NIGHT OF GOOD LIVE MUSIC? RIGHT HERE BUDDY, WE HAVE GREAT BAND WEEKLY</h3>
+				<p class="about-us-text">Stew's Bar is one of Londons most popular live music bars. Inspired by the dive bars of the Deep South, live music performances at Blues Kitchen Camden consist of soul, jazz and rock and roll played by some world famous musicians, including Seasick Steve, Mystery Jets and Dirty Pretty Things.</p>
+		</div>
+ 		
+ 	</div>
+ 	
+ 	<div class="what-back">
+ 		
+ 		
+ 		
+ 	</div>
+ 	
+ 	
+ </section>
+ 
+ 
+ <footer>
+ 	<div class="foot-cont container">
+ 	    
+ 	    <!-- logo -->
+ 	  <div class="foot-logo">
+ 	  
+ 	   <a href="#"><img class="logo" src="img/logo.png"></a>
+	    		  
+	    		 <div class="social-links">
+					  <i class="fab fa-facebook-f"></i>
+					  <i class="fab fa-twitter"></i>
+					  <i class="fab fa-instagram"></i>
+					  <i class="fab fa-youtube"></i>
+			     </div> 
+ 	      </div>
+ 	  <div class="foot-subscribe"> 
+ 	   <h3>STAY UPDATED</h3>
+ 	   <form>
+ 	   	
+ 	   	   <input type="email" placeholder="Email Address">
+ 	   	   <input type="submit" value="SUBMIT">
+ 	   </form>
+ 	  
+ 	  </div>
+ 	  <div class="foot-links">
+ 	  
+ 	   <ul class="list--reset f fdc aic"><li class="footer__nav__item">
+              <a href="/pages/find-us" class="footer__nav__item__link nav-link">Find Us</a>
+            </li><li class="footer__nav__item">
+              <a href="/blogs/press" class="footer__nav__item__link nav-link">In the News</a>
+            </li><li class="footer__nav__item">
+              <a href="mailto:info@properwhiskey.com" class="footer__nav__item__link nav-link">General Inquiries</a>
+            </li><li class="footer__nav__item">
+              <a href="mailto:prpr@properwhiskey.com" class="footer__nav__item__link nav-link">Media Inquiries </a>
+            </li><li class="footer__nav__item">
+              <a href="/pages/privacy" class="footer__nav__item__link nav-link">Privacy</a>
+            </li><li class="footer__nav__item">
+              <a href="/pages/legal" class="footer__nav__item__link nav-link">Terms &amp; Conditions</a>
+            </li></ul>
+ 	    
+ 	      </div>
+ 	
+ 	</div>
+ 	
+ 	
+ </footer>
+ 
+  <!-- scripts -->
+  <!-- jquery -->
+<!--  <script src="js/jquery-3.3.1.min.js"></script>-->
+  <script src="js/app.js"></script>
+  <!--  -->
+</body>
+
+</html>
