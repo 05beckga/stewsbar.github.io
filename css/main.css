@@ -51,16 +51,14 @@ table {
 
 
 h1, h2, h3,h4,p,a{
-	
 	font-family: 'Pridi', serif;
-	
 }
 
 img{
 	width:100%;
 }
 
-/* nav */
+/** nav **/
 
 .n-cont {
 		display: none;
