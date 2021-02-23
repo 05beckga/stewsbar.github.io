@@ -207,6 +207,18 @@ header{
     cursor: pointer;
 }
 
+.hero-text a{
+	text-decoration: none;
+	color: #eee1c5;
+}
+
+.hero-text h4:hover{	
+	background: #eee1c5;
+	transition: all .5s;
+}
+
+.hero-text h4:hover a{
+	color: #000;}
 
 /* show section */
 
